@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="shortcut icon" href="./Imagens/balança.JPG" type="image/x-icon">
+    <title>Cálculo - IMC</title>
+</head>
+
+<body>
+
+    <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o
+        peso ideal de cada pessoa.
+
+        O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado.
+        Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
+    <div class="main">
+        <div>
+            <h1>IMC</h1>
+            <h2>Cálculo do Indíce Corporal</h2>
+
+        </div>
+
+        <div>
+            <div>
+                <fieldset>
+                    <div>
+                        <label><b>Altura:</b></label><br>
+                        <input id="altura" name="altura" type="text" placeholder="cm">
+                    </div>
+                    <br>
+                    <div>
+                        <label><b>Peso:</b></label><br>
+                        <input id="peso" name="peso" type="text" placeholder="kg">
+                    </div>
+                    <br>
+                    <div>
+                        <label><b>Resultado:</b></label><br>
+                        <label id="imc" name="imc"></label>
+                    </div>
+                    <br>
+                    <div>
+                        <button id="calcular" onclick="calcularIMC()">Calcular</button>
+                        <button id="limpar" onclick="limparInput()">Limpar</button>
+                    </div>
+                    <br>
+
+                    <label id="comentario" name="comentario"></label>
+                </fieldset>
+            </div>
+        </div>
+    </div>    
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

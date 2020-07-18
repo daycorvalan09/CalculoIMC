@@ -1,0 +1,44 @@
+p{
+    margin: 15px;  
+    border: 2px solid blue;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.main{    
+    margin: 15px;  
+    border: 2px solid blue;
+    border-radius: 15px;    
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    font-size:  25px;
+    text-align: center;
+    color: blue;
+}
+
+fieldset{
+    border: 2px solid blue;
+    border-radius: 5px;
+    border-radius: 15px;    
+    width: fit-content;       
+    margin: 25px auto;
+}
+
+#altura , #peso, #calcular, #limpar{
+    border-radius: 5px;
+    
+}
+
+
+
